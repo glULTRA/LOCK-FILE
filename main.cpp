@@ -87,5 +87,7 @@ int main()
     }
 
     myfile.close();
+
+    system("pause > 0");
     return 0;
 }   
