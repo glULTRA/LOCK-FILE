@@ -66,6 +66,7 @@ int main()
                 is_file_locked.close();
                 if(ss2.str() == "LOCKED"){
                     cout << "It's LOCKED you can't change password !";
+                    system("pause > 0");
                     return 0;
                 }
                 else{
